@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo EJS</title>
+</head>
+<body>
+      
+      
+      <% for(let usuarios of dados) {%>
+        <div> <%=usuarios.id%>    </div>
+        <div> <%=usuarios.name%>  </div> 
+        <div> <%=usuarios.phone%> </div> <br>
+      
+      <%}%>  
+</body>
+</html>

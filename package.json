@@ -1,0 +1,16 @@
+{
+  "name": "usandoejs",
+  "version": "1.0.0",
+  "description": "Exemplo de como usar EJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Amilton Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
